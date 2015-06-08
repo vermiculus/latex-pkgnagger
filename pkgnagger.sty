@@ -1,0 +1,162 @@
+% TODO:
+% \item define registration command
+% \item put all registered packages into a graph
+% \item hook into \AtBeginDocument
+% \item find all files loaded or determine which packages were
+%   requested
+% \item it would be nice to only find ones that've been added by the
+%   author (e.g. usepackage, not RequirePackage)
+% \item report '<file> requested package <package>.  Use one of <packages> instead.'
+% \item report '<file> requested both <package> and <package>.  These do roughly the same thing.  Are you sure you want this?'
+% \item need a way for the author to acknowledge warnings and get rid of them
+% \item need a way to turn all warnings into errors (package option)
+% \item possibly need to make it the first package loaded
+% \item need a way to represent duplicate functionality
+
+\pkgnagger_succession:nn
+  { a4, a4wide, anysize }
+  { geometry, typearea }
+
+\pkgnagger_succession:nn
+  { backrefx }
+  { backref }
+
+\pkgnagger_succession:nn
+  { bitfield }
+  { bytefield }
+
+\pkgnagger_succession:nn
+  { caption2 }
+  { caption }
+
+\pkgnagger_succession:nn
+  { csvtools }
+  { datatool }
+
+\pkgnagger_succession:nn
+  { dinat }
+  { natdin }
+
+\pkgnagger_succession:nn
+  { doublespace }
+  { setspace }
+
+\pkgnagger_succession:nn
+  { dropping }
+  { lettrine }
+
+\pkgnagger_succession:nn
+  { eps, epsfig }
+  { graphicx }
+
+\pkgnagger_succession:nn
+  { euler }
+  { eulervm }
+
+\pkgnagger_succession:nn
+  { eurotex }
+  { inputenx }
+
+\pkgnagger_succession:nn
+  { fancyheadings }
+  { fancyhdr }
+
+\pkgnagger_succession:nn
+  { floatfig }
+  { floatflt }
+
+\pkgnagger_succession:nn
+  { german }
+  { babel }
+
+\pkgnagger_succession:nn
+  { glossary }
+  { glossaries }
+
+\pkgnagger_succession:nn
+  { graphics }
+  { graphicxs }
+
+\pkgnagger_succession:nn
+  { here }
+  { float }
+
+\pkgnagger_succession:nn
+  { isolatin, isolatin1 }
+  { inputenc }
+
+\pkgnagger_succession:nn
+  { mathpple }
+  { mathpazo }
+
+\pkgnagger_succession:nn
+  { mathptm }
+  { mathptmx }
+
+\pkgnagger_succession:nn
+  { ngerman }
+  { babel }
+
+\pkgnagger_succession:nn
+  { nthm }
+  { ntheorem }
+
+\pkgnagger_succession:nn
+  { palatino }
+  { mathpazo }
+
+\pkgnagger_succession:nn
+  { picinpar }
+  { floatflt, picins, wrapfig }
+
+\pkgnagger_succession:nn
+  { prosper, HA-prosper }
+  { powerdot, beamer }
+
+\pkgnagger_succession:nn
+  { ps4pdf }
+  { pst-pdf }
+
+\pkgnagger_succession:nn
+  { raggedr }
+  { ragged2e }
+
+\pkgnagger_succession:nn
+  { scrlettr }
+  { scrlttr2 }
+
+\pkgnagger_succession:nn
+  { scrpage }
+  { scrpage2 }
+
+\pkgnagger_succession:nn
+  { seminar }
+  { powerdot, beamer }
+
+\pkgnagger_succession:nn
+  { subfigure }
+  { subfig, subcaption }
+
+\pkgnagger_succession:nn
+  { t1enc }
+  { fontenc }
+
+\pkgnagger_succession:nn
+  { times }
+  { mathptmx }
+
+\pkgnagger_succession:nn
+  { utopia }
+  { fourier }
+
+\pkgnagger_succession:nn
+  { vmargin }
+  { geometry, typearea }
+
+\pkgnagger_succession:nn
+  { ledmac }
+  { eledmac }
+
+\pkgnagger_succession:nn
+  { ledpar }
+  { eledpar }
